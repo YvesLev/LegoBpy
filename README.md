@@ -22,12 +22,10 @@ if you want to use letter for output port then enter the following:
 
 ```python
 >>> A, B, C, D, E, F, G, H = 1, 2, 3, 4, 5, 6, 7, 8
-```
 # Then:
-```python
 >>> Lego1.out(A).off()
-```
 # should turn off output A
+```
 
 To get input states or values etc:
 
