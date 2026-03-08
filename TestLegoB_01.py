@@ -5,7 +5,7 @@ import code
 
 print('Hit ^C at any point for interactive control. Dacta object\'s name is "d".')
 
-d = LegoB('COM1') # put your serial port name here
+d = LegoB('COM19') # put your serial port name here
 
 A, B, C, D, E, F, G, H = 1, 2, 3, 4, 5, 6, 7, 8
 

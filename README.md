@@ -1,6 +1,9 @@
 # LegoBpy
 Lego Interface B Python Serial Communication Module
 
+It needs the pyserial library to be installed.
+In Windows 11 command prompts, I had to do the following command: python -m pip install pyserial
+
 All you have to do is to put the legob.py file in the same working folder as your project.
 For example, in Thonny python editor, open your working folder on the left pane and this file should copied there.
 

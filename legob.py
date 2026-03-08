@@ -177,10 +177,10 @@ class LegoB:
         while _firstReadDone == False:
             time.sleep(0.010)
 
-    def __del__(self):
-        """ Should be called on close, but there's a bug. Call close() instead.
-        """
-        self.close()
+#    def __del__(self):
+#        """ Should be called on close, but there's a bug. Call close() instead.
+#        """
+#        self.close()
 
 class OutCmd:
     def __init__(self, port):
